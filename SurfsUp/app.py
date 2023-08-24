@@ -85,7 +85,6 @@ def precipitation():
     for output in outputs:
         prcp_dict[output[0]] = output[1]
      
-
     # Return the JSON representation of your dictionary.
     return jsonify(prcp_dict)
 
